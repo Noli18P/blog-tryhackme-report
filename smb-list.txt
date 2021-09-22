@@ -1,0 +1,15 @@
+
+	Sharename       Type      Comment
+	---------       ----      -------
+	print$          Disk      Printer Drivers
+	BillySMB        Disk      Billy's local SMB Share
+	IPC$            IPC       IPC Service (blog server (Samba, Ubuntu))
+Reconnecting with SMB1 for workgroup listing.
+
+	Server               Comment
+	---------            -------
+	BLOG                 blog server (Samba, Ubuntu)
+
+	Workgroup            Master
+	---------            -------
+	WORKGROUP            BLOG

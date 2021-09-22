@@ -1,0 +1,6 @@
+PING 10.10.245.12 (10.10.245.12) 56(84) bytes of data.
+64 bytes from 10.10.245.12: icmp_seq=1 ttl=61 time=142 ms
+
+--- 10.10.245.12 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 142.005/142.005/142.005/0.000 ms

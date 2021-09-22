@@ -1,0 +1,15 @@
+# Nmap 7.80 scan initiated Tue Sep 21 22:44:40 2021 as: nmap -sS --min-rate 5000 -p- -vvv --open -oA enum/all/allPorts 10.10.245.12
+Nmap scan report for 10.10.245.12
+Host is up, received echo-reply ttl 61 (0.29s latency).
+Scanned at 2021-09-21 22:44:40 CDT for 23s
+Not shown: 40860 closed ports, 24671 filtered ports
+Reason: 40860 resets and 24671 no-responses
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT    STATE SERVICE      REASON
+22/tcp  open  ssh          syn-ack ttl 61
+80/tcp  open  http         syn-ack ttl 61
+139/tcp open  netbios-ssn  syn-ack ttl 61
+445/tcp open  microsoft-ds syn-ack ttl 61
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Sep 21 22:45:03 2021 -- 1 IP address (1 host up) scanned in 22.72 seconds
